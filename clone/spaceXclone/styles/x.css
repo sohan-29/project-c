@@ -1,0 +1,280 @@
+html,body
+{
+    background:transparent;
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;
+}
+*
+{
+    text-decoration: none;
+}
+.mission-links
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    margin-top: 0.3%;
+    /* margin: 0 none 5% 0; */
+}
+.mission-links1
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    margin-right:5%;
+    margin-LEFT:5%;
+    margin-top: 0.3%;
+}
+.mission-links a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin: 0 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+}
+.mission-links1 a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin: 0 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+}
+.links::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: right;
+    transition: transform 200ms ease-in-out;
+}
+.links:hover::after
+{
+    transform: scaleX(1);
+    transform-origin:left;
+}
+#menu
+{
+    height: 25;
+    width: 18;
+    font-weight:bold;
+    background: transparent;
+    border-style: none;
+}
+.bar-1
+{
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 18px;
+    height: 2.5px;
+    margin-top: 11px;
+    border-top: 2px;
+    background-color: white;
+    position: 3;
+}
+.bar-2
+{
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 18px;
+    height: 2.5px;
+    margin-top: 3px;
+    border-top: 2px;
+    background-color: white;
+    position: 7;
+}
+.bar-3
+{
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 18px;
+    height: 2.5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-top: 2px;
+    background-color: white;
+    position: 11;
+}
+#spacex
+{
+    display: flex;
+    align-items:baseline;
+    margin: 10px;
+    margin-right: 2%;
+    height:4%;
+    width: 18%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #000;
+    position:sticky;
+    padding:1% 1% 1% 5%;
+    height: 9%;
+    width: auto;
+    top: 0;
+    z-index: 1000;
+}
+.mission
+{
+    position: relative;
+    height:100%;
+    width: 100%;
+}
+input
+{
+    margin-top: 5%;
+    margin-left:15px;
+    border: 2px solid white;
+    padding: 20px 50px;
+    color: white;
+    background: transparent;
+    display: block;
+}
+span
+{
+    margin-left:15px;
+    color: white;
+    display:inline-block;
+    font-size: 42px;
+}
+section
+{
+    margin-left:15px;
+    color: white;
+    font-size: 20px;
+}
+.mission-name
+{
+    height: 50px;
+    margin:0 0 5px 15px;
+    font-weight: 700;
+}
+.content
+{
+    max-width: 1300px;
+    margin: 0 auto;
+    position: absolute;
+    top: 430px;
+    left: 5%;
+}
+.mission-info
+{
+    margin:0px;
+    height:100%;
+    width: 100%;
+    background-image: url(../imgs/Launch_Page_Starlink1_vertical_18_DESKTOP_c051df793a.jpg);
+background-position:center;
+background-size:cover;
+align-items: center;
+}
+.mission-info1
+{
+    margin:0px;
+    height:100%;
+    width: 100%;
+background-image: url(../imgs/NROL_186_San_Ynez_2815_Desktop_524f6c1cb9.jpg);
+background-position:center;
+background-size:cover;
+align-items: center;
+}
+.mission-info2
+{
+    margin:0px;
+    height:100%;
+    width: 100%;
+background-image: url(../imgs/Star10_3_062724_DSC_8219_desktop_28f4368e42.jpg);
+background-position:center;
+background-size: cover;
+}
+.mission-info3
+{
+    margin:0px;
+    height:100%;
+    width: 100%;
+background-image: url(../imgs/GOES_U_rampengine_DSC_5719_desktop_80888fb22d.jpg);
+background-position:center;
+background-size: cover;
+}
+.mission-info4
+{
+    margin:0px;
+    height:100%;
+    width: 100%;
+background-image: url(../imgs/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+background-position:center;
+background-size: cover;
+}
+.mission-info5
+{
+    margin:0px;
+    height:100%;
+    width: 100%;
+background-image: url(../imgs/make_life_multiplanetary_desktop_3fa7cff73c.jpg);
+background-position:center;
+background-size: cover;
+}
+footer
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* height: 10%; */
+    background-color: #000;
+}
+#spacexcorp
+{
+    margin-top: 30;
+    margin-bottom: 30;
+    margin-left: 20;
+    margin-right: 20 ;
+    font-size: 12px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+#supplier
+{
+    margin-top: 30;
+    margin-bottom: 30;
+    margin-left: 20;
+    margin-right: 20 ;
+    text-align: center;
+    font-family:Arial,Verdana,Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    color: white;
+}
+#policy
+{
+    margin-top: 30;
+    margin-bottom: 30;
+    text-align: center;
+    margin-left: 20;
+    margin-right: 20 ;
+    font-family:Arial,Verdana,Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    color: white;
+}
+#policy:hover,#supplier:hover{
+    opacity: 0.6;
+}

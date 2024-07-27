@@ -1,0 +1,294 @@
+body {
+    font-family: sans-serif;
+    background-color: #fafafa;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  hr {
+    display:inline;
+    width: 100%;
+    height: auto;
+    border-color: #dbdbdb;
+  }
+  #igimg
+  {
+    margin: 10% auto 10%;
+    background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
+    background-position: -98px 0;
+    height: 51px;
+    width: 177px;
+    overflow: hidden;
+  }
+  label
+  {
+    text-align: center;
+    position: absolute;
+  pointer-events: none;
+  left: 12%;
+  padding-bottom: 15px;
+  transform: translateY(-19px);
+  line-height: 5px;
+  transition: all ease-out 0.1s;
+  font-size: 14px;
+  color: #999;
+  padding-top: px;
+  font-size: small;
+  }
+.block-1
+{
+  align-items: center;
+  font-size: 14px;
+  align-content: center;
+  max-width: 330px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  margin:5px;
+  padding: 11px ;
+  flex-grow: 1; 
+}
+#mainblock
+{
+  margin-top: 3% !important;
+}
+.block
+{
+  margin-top:none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.x #line
+{
+  height: 1px;
+  margin:15px;
+  width:90;
+  background-color: #dbdbdb;
+}
+.x{
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+#fb
+{
+    align-content: center;
+    margin: 20px;
+}
+#fb #fblog
+{  
+     color: #385185;
+    font-size: 1rem;
+    padding-right: 1px;
+    margin-bottom: 5px;
+    display: block;
+}
+ #fbfor
+{   
+  margin-top: 15px;
+  align-self: center;
+    font-size: 11px;
+    color: #003569;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+.block-1 #igimg
+{
+    box-sizing: border-box;
+    box-align: center;
+    size: 2px;
+}
+.box {
+  margin: 3px;
+  position: relative;
+  font-size: 14px;
+  width: 100%;
+  text-overflow: ellipsis;
+  }
+.box input
+{
+    box-sizing: border-box;
+    align-self: center;
+    padding: 12px 0 7px 7px !important;
+    margin-top:none;
+    margin-bottom:none;
+    width: 80%;
+    font-size: small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: rgb(204, 199, 199);
+    border-width: 1px;
+    border-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* vertical-align: top; */
+    /* justify-content: center; */
+}
+.box input:focus
+{
+  border: 1px solid rgb(204, 199, 199);
+  outline: none;
+}
+.block-1 button
+{
+  margin-top:12px;
+  border-radius: 8px;
+  text-align: center;
+  width: 80%;
+  padding: 5px;
+  border: 1px solid transparent;
+  background-color: #42b4f1;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+#sign
+{
+  font-size: 15px;
+  font-weight: 200;
+  margin-top:12px;
+  margin-bottom: 8px;
+  padding-left: 15px;
+}
+#signup
+{ 
+  margin-left: 3px;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: inline;
+  text-align: center;
+  color: #3897f0;
+  font-weight:600;
+}
+input::placeholder {
+    visibility:hidden;
+  }
+  input:not(:placeholder-shown) + label {
+    transform: translateY(-30px);
+    font-size: 11px;
+  }
+  input:not(:placeholder-shown) {
+    padding-bottom: 2px;
+    text-align: center;
+  }
+  #apps
+  {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: stretch;
+    justify-content: center;
+    display: flex;
+    align-content:space-evenly;
+    flex-wrap:wrap;
+    flex-direction: row;
+
+  }
+  .apps
+  {
+    height: 20%;
+    width: 20%;
+    margin-left: 7px;
+  }
+ .apps #ms
+  {
+    height: 15%;
+    width: 40%;
+    margin: 1px;
+    float: left;
+    align-content: right;
+  }
+  .apps #gp
+  {
+    justify-content: right;
+    align-items:center;
+    float: right;
+    margin-top: 1px;
+    height: 15%;
+    width: 50%;
+  }
+  #get
+  {
+    color:#000000;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  #foot,span
+  {
+    color: #737373;
+    position: relative;
+    box-sizing: border-box;
+    margin-top:none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow:auto;
+    text-decoration: none;
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  span
+  {
+    margin-bottom:55px ;
+  }
+  #foot
+  {
+    margin-top: 5%;
+  }
+  .lang
+  {
+  align-items: center;
+  justify-content: center;
+  }
+  #foot a
+  {
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom:18px ;
+    color: #737373;
+    overflow:visible;
+  }
+  #or
+  {
+    color: #737373;
+    font-size:small;
+    font-weight:700;
+  }
+ .span
+  {
+    align-items: center;
+    justify-content: center;
+    margin-bottom:5% ;
+    color: #737373;
+  }
+  a {
+    text-decoration: none;
+  }
+  select
+  {
+    justify-content: center;
+    color: #737373;
+    border: none;
+    width: 80;
+  }
+  #username,#pass
+  {
+    text-align: left;
+  }
